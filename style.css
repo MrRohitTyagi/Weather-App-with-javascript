@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
 *{
     transition-property: transform;
     transition-duration: 1s;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 0.9rem !important;
     
 }
 body{
@@ -119,6 +122,9 @@ header{
     border-radius: 3vw;
     border: 3px solid green;
     
+}
+.p{
+    padding: 1vw;
 }
 @keyframes ani {
         0%{
