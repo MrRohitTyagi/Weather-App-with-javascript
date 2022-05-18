@@ -77,7 +77,7 @@ function settimedate(data) {
     Sunset.innerHTML = "Sunset : " + ss1
 
     // fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${data.coord.lat}&lon=${data.coord.lon}&appid=${API}`).then(res => res.json()).then(data => {
-    fetch(`http://api.openweathermap.org/data/2.5/air_pollution/forecast?lat=${data.coord.lat}&lon=${data.coord.lon}&appid=${API}`).then(res => res.json()).then(data1 => {
+    fetch(`https://api.openweathermap.org/data/2.5/air_pollution/forecast?lat=${data.coord.lat}&lon=${data.coord.lon}&appid=${API}`).then(res => res.json()).then(data1 => {
             console.log(data1.list[0].components);
             let air = data1.list[0].components
             // console.log(Math.round((data.main.temp - 273.15)*100)/100);
