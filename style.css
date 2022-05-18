@@ -1,36 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
-*{
+* {
     transition-property: transform;
     transition-duration: 1s;
-    font-family: 'Mochiy Pop P One', sans-serif;
+
     font-size: 0.9rem !important;
-    
+
 }
-body{
-    
+
+body {
+    /* background-image: url("https://www.maketecheasier.com/assets/uploads/2020/06/Featured-Image-Live-Weather-Wallpapers-Android.jpg"); */
     background-image: url("https://wallpaperaccess.com/full/2942781.jpg");
     /* animation: ani 2s ease-in-out  infinite ; */
     background-color: rgb(0, 0, 0);
-  /* position: relative; */
-  /* background-size:100% ; */
-  /* background-size:contain; */
-background-position:center;
-background-repeat:no-repeat;
--webkit-background-size:cover;
--moz-background-size:cover;
--o-background-size:cover;
-background-size:cover;
-background-position:center;
-    
+    /* position: relative; */
+    /* background-size:100% ; */
+    /* background-size:contain; */
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+
     /* opacity: 10%; */
 }
-#header{
+
+#header {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 10vh;
-    background-color:rgba(61, 8, 99, 80%) ;   
+    background-color: rgba(61, 8, 99, 80%);
     border: 5px solid rgba(61, 8, 99);
     border-radius: 50px;
     letter-spacing: 1px;
@@ -38,15 +39,19 @@ background-position:center;
     /* box-shadow: aquamarine 0px 15px 50px -20px; */
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
-    
+
 }
-.heading{
+
+.heading {
     opacity: 100%;
 }
-.time-date{
+
+.time-date {
+
     /* box-shadow: aquamarine 0px 15px 50px -20px; */
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
     padding: 2vw;
     margin: 2vw;
     border: 2px green solid;
@@ -54,10 +59,12 @@ background-position:center;
     background-color: aquamarine;
     width: 15vw;
 }
-.time-date:hover{
+
+.time-date:hover {
     transform: scale(1.1);
 }
-.weather{
+
+.weather {
     width: 15vw;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
     /* display: flex; */
@@ -68,15 +75,18 @@ background-position:center;
     background-color: aquamarine;
 
 }
-.weather:hover{
+
+.weather:hover {
     transform: scale(1.1);
 }
-.search{
+
+.search {
     margin: 2.5vw;
     display: flex;
-    
+
 }
-.inp{
+
+.inp {
     font-size: 5vh;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
@@ -85,7 +95,8 @@ background-position:center;
     height: 7vh;
     border: 2px solid green;
 }
-.but{
+
+.but {
     border-radius: 3vw;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
@@ -96,22 +107,27 @@ background-position:center;
     animation: ani 2s infinite;
     font-size: 1.5rem;
 }
-.but:active{
+
+.but:active {
     transform: scale(0.9);
     background-color: aqua;
 }
-.inp:hover{
+
+.inp:hover {
     transform: scale(1.1);
 }
-.but:hover{
+
+.but:hover {
     transform: scale(1.1);
 }
-.weather-card{
+
+.weather-card {
     display: flex;
 }
-.details{
+
+.details {
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-    display: inline-block;
+    /* display: inline-block; */
     padding: 2vw;
     margin: 2vw;
     border: 2px green solid;
@@ -119,74 +135,111 @@ background-position:center;
     background-color: aquamarine;
     width: 40vw;
     /* display:flexbox; */
-    
-    
+
+
 }
-.details:hover{
+
+.details:hover {
     transform: scale(1.1);
 }
-.div1{
-    
+
+.div1 {
+
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 
     margin: 4vh;
     background-color: aquamarine;
-    height: 74vh;
-    width: 20vw;
+    /* height: 74vh;
+    width: 20vw; */
     border-radius: 3vw;
     border: 3px solid green;
-    
+
 }
-.p{
+
+.p {
     padding: 1vw;
 }
+
 @keyframes ani {
-        0%{
-            background-color: aquamarine;
-            
-        }
-        20%{
-            background-color: greenyellow;
-        }
-        40%{
-            background-color: yellow;
-        }
-        60%{
-            background-color: lightskyblue;
-        }
-        80%{
-            background-color: rgb(117, 20, 185);
-        }
-        100%{
-            background-color: rgb(216, 86, 86);
-        }
+    0% {
+        background-color: aquamarine;
+
+    }
+
+    20% {
+        background-color: greenyellow;
+    }
+
+    40% {
+        background-color: yellow;
+    }
+
+    60% {
+        background-color: lightskyblue;
+    }
+
+    80% {
+        background-color: rgb(117, 20, 185);
+    }
+
+    100% {
+        background-color: rgb(216, 86, 86);
+    }
 }
 
 
 
-@media only screen and (max-width:400px) {
-    header{
+@media only screen and (max-width:600px) {
+    header {
         font-size: 4vw;
         margin-top: 4vh;
     }
-    .time-date{
+
+    .time-date {
         font-size: 3vw;
+        width: auto;
     }
-    .weather-card{
-        font-size: 3vw;
+
+    .weather-card {
+        font-size: 2vw;
     }
-    .main{
-        font-size: 3vw;
-    }.but{
-        font-size: 3vw;
+    .weather{
+        width: auto;
+        height: auto;
 
     }
-    .top{
+
+    .main {
+        font-size: 3vw;
+    }
+
+    .but {
+        font-size: 1vw;
+        width: auto;
+
+    }
+
+    .top {
+        width: auto;
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
         align-items: center;
         overflow-y: visible;
     }
-    
+
+    p {
+        font-size: 2vw;
+    }
+
+    .div1 {
+        /* display: none; */
+        width: 100vw;
+        /* height: 30vw; */
+    }
+    *{
+        margin: 1vw;
+    }
+
+
 }

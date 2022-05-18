@@ -71,7 +71,7 @@ function settimedate(data) {
     humidity.innerHTML = "Humidity : " + data.main.humidity + " %"
     wind.innerHTML = "Wind Speed : " + data.wind.speed + " m/s"
     desc.innerHTML = data.weather[0].description
-    press.innerHTML = "Pressure : " + data.main.pressure
+    press.innerHTML = "Pressure : " + data.main.pressure +" hPa"
     SeaLevel.innerHTML = "Sea Level : " + data.main.sea_level
     Sunrise.innerHTML = "Sunrise : " + sr1
     Sunset.innerHTML = "Sunset : " + ss1
