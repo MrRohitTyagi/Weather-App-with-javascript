@@ -78,6 +78,11 @@ function settimedate(data) {
 
 
 }
+document.querySelector('.but').addEventListener('click', () => {
+    // console.log(inp.value);
+
+    getdatabtplace(inp.value)
+})
 
 document.querySelector('.but').addEventListener('click', () => {
     // console.log(inp.value);
