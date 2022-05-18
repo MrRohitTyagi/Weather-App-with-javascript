@@ -78,11 +78,13 @@ function settimedate(data) {
 
 
 }
-document.querySelector('.but').addEventListener('click', () => {
-    // console.log(inp.value);
 
-    getdatabtplace(inp.value)
+inp.addEventListener('keypress',(e)=>{
+    if(e.key == 'Enter'){
+        getdatabtplace(inp.value)
+    }
 })
+
 
 document.querySelector('.but').addEventListener('click', () => {
     // console.log(inp.value);

@@ -10,72 +10,79 @@
 
 </head>
 
-<body style="background-color:rgb(83, 83, 83);">
+<body>
 
     <header>
-        <h1 class="heading">Welcome to Weather App</h1>
+        <h1 class="heading" style="color: whitesmoke;">Welcome to Weather App</h1>
     </header>
 
     <!-- time and date -->
+<div class="top" style="display: flex;">
+    <div>
 
-    <div class="main" style="display: flex;">
-        <div class="time-date">
-            
-            <div>
-                <h3 class="time"></h3>
-            </div>
-            <hr>
-            <div>
-                <h3 class="date"></h3 >
+        
+        <div class="main" style="display: flex;">
+            <div class="time-date">
+                
+                <div>
+                    <h3 class="time"></h3>
+                </div>
+                <hr>
+                <div>
+                    <h3 class="date"></h3 >
+                    </div>
+                </div>
+                
+                <div class="search">
+                    <input type="text" placeholder="Search Location" class="inp" id="inp">
+                    <button class="but">Search</button>
+                    
                 </div>
             </div>
+            <br>
             
-            <div class="search">
-                <h2 class="main">Search Location :
-                    <input type="text" class="inp" id="inp">
-                    <button class="but">Search</button>
-                </h2>
+            
+            <!-- Weather info -->
+            
+            <div class="weather-card">
+                <div class="weather">
+                    
+                    <div><h3 class="cityName"></h3></div>
+                    <hr>
+                    <div class="temp"></div>
+                    <hr>
+                    <div class="humidity"></div>
+                    <hr>
+                    <div class="description"></div>
+                </div>
+                
+                
+                
+            <div class="details">
+                <div><h3 class="cityName"></h3></div>
+                <div class="Pressure"></div>
+                <hr>
+                <div class="Sea_level"></div>
+                <hr>
+                <div class="Sunrise"></div>
+                <hr>
+                <div class="Sunset"></div>
+                <hr>
+                <div class="wind-speed"></div>
+                <hr>
+                
             </div>
         </div>
-    <br>
-
-
-    <!-- Weather info -->
-
-    <div class="weather-card">
-        <div class="weather">
-
-            <div><h3 class="cityName"></h3></div>
-            <hr>
-            <div class="temp"></div>
-            <hr>
-            <div class="humidity"></div>
-            <hr>
-            <div class="description"></div>
-        </div>
-        
-        
-        
-        <div class="details">
-            <div><h3 class="cityName"></h3></div>
-            <div class="Pressure"></div>
-            <hr>
-            <div class="Sea_level"></div>
-            <hr>
-            <div class="Sunrise"></div>
-            <hr>
-            <div class="Sunset"></div>
-            <hr>
-            <div class="wind-speed"></div>
-            <hr>
-            
-        </div>
     </div>
+    <div class="div1">
+        
+    </div>
+</div>
     <!-- input  -->
     
-
-
-
+    
+    
+    
     <script src="script.js"></script>
 </body>
 
